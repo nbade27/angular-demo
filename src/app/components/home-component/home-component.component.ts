@@ -11,5 +11,9 @@ export class HomeComponentComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  //string interpolation
+  title = 'Jesus is the way,truth and the life.';
+  imageUrl = "../favicon.ico"
+  colSpan= 2;
 
 }
